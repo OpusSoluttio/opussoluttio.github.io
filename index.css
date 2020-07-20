@@ -23,7 +23,6 @@ p{
 }
 #logo-opus{
     width: 150px;
-    margin-top: -9%;
 }
 #cards{
     display: flex;
@@ -31,7 +30,6 @@ p{
     height: 400px;
     justify-content: space-around;
     flex-flow: row wrap;
-    margin-top: -20%;
 }
 .img-linkedin{
     width: 100%;
