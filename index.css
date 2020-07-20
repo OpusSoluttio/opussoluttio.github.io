@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-family: 'Baloo 2', cursive;
+}
+#container-all{
+    width: 100vw;
+    height: 100vh;
+    background: rgba(214,214,214,1);
+    background: -moz-linear-gradient(45deg, rgba(214,214,214,1) 0%, rgba(235,235,235,1) 50%, rgba(235,235,235,1) 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    overflow-x: hidden;
+    background-image: url(img/shapesbg.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: 100%; 
+}
+#logo-opus{
+    width: 150px;
+    margin-top: -13%;
+}
+#cards{
+    display: flex;
+    max-width: 80%;
+    height: 400px;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    margin-top: -30%;
+}
+.img-linkedin{
+    width: 100%;
+    height: 100%;
+    align-self: center;
+}
+.img-linkedin:hover{
+    filter: grayscale(90%);
+    transition: 0.3s;
+}
+.pic-team{
+    max-width: 100%;
+}
+.name{
+    font-size: bold;
+    color: #6e3c78;
+    font-weight: 700;
+}
+.contato{
+    font-size: 0.8em;
+    font-weight: 600;
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    width: 180px;
+}
+.card-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-content > a{
+    width: 20%;
+    max-height: 36px;
+}
